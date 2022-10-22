@@ -10,7 +10,6 @@ Open terminal in vscode and execute below command
 1. Create a sample.txt file with content "This is hadoop and spark lab."
 ```
 echo "This is hadoop and spark lab">sample.txt
-
 ```
 
 2. Upload your sample.txt file to Hadoop file system
