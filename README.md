@@ -38,3 +38,12 @@ Execute the spark script.
 ```
 python demo.py
 ```
+
+## URL to view data in UI:
+
+Spark Master - <your_app_name>.ineuron.app:8088
+
+History Server - <your_app_name>.ineuron.app:18080
+
+Spark Worker Node - <your_app_name>.ineuron.app:8081
+
