@@ -2,9 +2,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Installing dependencies...",
+      "label": "Installing dependencies and running your app...",
       "type": "shell",
-      "command": "pip install -r requirements.txt",
+      "command": "pip install -r requirements.txt && sleep 5 && python demo.py",
       "presentation": {
         "reveal": "always",
         "panel": "new"
