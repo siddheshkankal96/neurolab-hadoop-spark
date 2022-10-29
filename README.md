@@ -41,7 +41,7 @@ python demo.py
 
 ## URL to view data in UI:
 
-Spark Master - <your_app_name>.ineuron.app:8088
+Spark Master - <your_app_name>.ineuron.app:8080
 
 History Server - <your_app_name>.ineuron.app:18080
 
