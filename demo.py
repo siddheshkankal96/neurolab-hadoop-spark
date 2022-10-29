@@ -8,11 +8,11 @@ if __name__ == '__main__':
     spark = SparkSession.builder.master("spark://localhost:7077").appName("demo").getOrCreate()
 
     #Create list of data to prepare data frame
-    person_list = [("Berry","","Allen","1","M"),
-        ("Oliver","Queen","","2","M"),
-        ("Robert","","Williams","3","M"),
-        ("Tony","","Stark","4","F"),
-        ("Rajiv","Mary","Kumar","5","F")
+    person_list = [("Berry","","Allen",1,"M"),
+        ("Oliver","Queen","",2,"M"),
+        ("Robert","","Williams",3,"M"),
+        ("Tony","","Stark",4,"F"),
+        ("Rajiv","Mary","Kumar",5,"F")
     ]
     
 
@@ -21,7 +21,7 @@ if __name__ == '__main__':
         StructField("firstname",StringType(),True), \
         StructField("middlename",StringType(),True), \
         StructField("lastname",StringType(),True), \
-        StructField("id", StringType(), True), \
+        StructField("id", IntegerType(), True), \
         StructField("gender", StringType(), True), \
       
     ])
